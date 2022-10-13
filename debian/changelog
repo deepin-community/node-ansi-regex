@@ -1,0 +1,63 @@
+node-ansi-regex (5.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Drop nodejs dependency
+  * Declare compliance with policy 4.6.0
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * New upstream version 5.0.1 (Closes: CVE-2021-3807)
+
+ -- Yadd <yadd@debian.org>  Wed, 22 Sep 2021 08:56:34 +0200
+
+node-ansi-regex (5.0.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-ansi-regex: Add Multi-Arch: foreign.
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on pkg-js-tools.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 28 Aug 2021 23:51:00 +0100
+
+node-ansi-regex (5.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Update standards version to 4.1.1, no changes needed.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Use pkg-js-tools auto test & install
+  * New upstream version 5.0.0
+  * Switch upstream test from ava to tape
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 18 Feb 2020 17:06:21 +0100
+
+node-ansi-regex (3.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Bump standards version
+  * Run tests
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Tue, 19 Sep 2017 14:30:30 +0200
+
+node-ansi-regex (2.0.0-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Tue, 29 Mar 2016 14:59:17 +0200
